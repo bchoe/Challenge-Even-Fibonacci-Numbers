@@ -5,10 +5,26 @@
  * @param  {Number} maxFibValue
  * @return {Number} sum
  */
+  // do your work here
+
+
+
 function _sumFibs( maxFibValue ) {
+
   var sum = 0;
 
-  // do your work here
+  var a = 0;
+  var b = 1;
+
+  var fibArr = [];
+
+  for (var i = 0; i < maxFibValue; i ++){
+    a = a + b;
+      sum.push(a);
+    b = a + b;
+      sum.push(b);
+  }
+
 
   return sum;
 }
