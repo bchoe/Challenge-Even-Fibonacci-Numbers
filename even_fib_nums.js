@@ -17,8 +17,8 @@ function _sumFibs( maxFibValue ) {
     b = a + b;
     fibArray.push(b);
 
-    if (fibArray[i]<=maxFibValue){
-      if(fibArray[i]%2 === 0){
+    if (fibArray[i] <= maxFibValue){
+      if(fibArray[i] %2 === 0){
         sum += fibArray[i];
       }
     }
@@ -26,7 +26,7 @@ function _sumFibs( maxFibValue ) {
 
   return sum;
 }
-//console.log(_sumFibs(6));
+console.log('sumFib',_sumFibs(100000));
 
 // bonus round
 function _highestFibonacciNumber (maxFibValue){
@@ -38,7 +38,7 @@ function _highestFibonacciNumber (maxFibValue){
   //do your work here
 
   return highest;
-};
+}
 
 /**
  * Do not modify code below.
